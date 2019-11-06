@@ -1,15 +1,26 @@
 # Project Overview
 This is a portfolio website for photographer Caleb Henderson. 
 
-# MVP
+## MVP
 
 - Mobile-responsive layout
-- Immediate image-load time
+- Immediate image-load time via AWS S3 services
 - Cursor that displays Caleb's full name
 - Translucent overlay menu that displays Caleb's email address, accessed by a:
 - Contact link below image
 
+## Post-MVP
 
-# Live site
+- Functionality for Caleb to update/add photos and collections to the site independently of me
+
+
+## Live site
 
 TBD
+
+## Wireframes
+
+- [Mobile landing page](https://res.cloudinary.com/eloise/image/upload/v1573066206/caleb-henderson/mobile_wireframe.jpg)
+- [Desktop landing page](https://res.cloudinary.com/eloise/image/upload/v1573066206/caleb-henderson/desktop_landing_wireframe.jpg)
+- [Desktop overlay menu](https://res.cloudinary.com/eloise/image/upload/v1573066206/caleb-henderson/desktop_menu_wireframe.jpg)
+

@@ -10,13 +10,14 @@ export default function Photograph() {
     return (
       <div 
         key={index}
-        onClick={() => setCurrentImgIndex(currentImgIndex + 1)}
+        onClick={() => setCurrentImgIndex(currentImgIndex !== placeholders.length - 1 ? currentImgIndex + 1 : 0)}
         className="current-img"
         >
           {img}
       </div>
     )
   })
+
   return (
     <div className="img-container">
       {displayImg[currentImgIndex]}

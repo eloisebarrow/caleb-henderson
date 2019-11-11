@@ -5,3 +5,15 @@
   text-align: center;
   margin: 20% 0;
 }
+
+.title {
+  flex: 1;
+}
+
+.img-container {
+  flex: 2;
+}
+
+.contact {
+  flex: 1;
+}

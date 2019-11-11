@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Menu() {
   return (
-    <div>
-      <h1>Menu</h1>
+    <div className="menu-contact">
+      <h1>ContactCalebH@gmail.com</h1>
     </div>
   )
 }

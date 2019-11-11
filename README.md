@@ -25,3 +25,12 @@ TBD
 - [Desktop overlay menu](https://res.cloudinary.com/eloise/image/upload/v1573066206/caleb-henderson/desktop_menu_wireframe.jpg)
 - [React architecture](https://drive.google.com/file/d/1GifPaR1qw5z0nr4ImdTJPQ9uyUxf0BCX/view?usp=sharing)
 
+## Components
+
+| Component | Description | 
+| --- | :---: |  
+|  App | Calls Title, CurrentImage, Contact and Menu | 
+|  Title | Renders Caleb's name on mobile and turns the cursor into his name on desktop | 
+|  CurrentImage | Renders the first available image on page load, followed by the next image as a user clicks through the images | 
+|  Contact | Renders Caleb's email below CurrentImage on mobile, and 'Contact' on desktop - when clicked renders Menu component | 
+|  Menu | Renders overlay across entire viewport with Caleb's email and a translucent background | 

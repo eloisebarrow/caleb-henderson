@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Title from './components/Title.jsx';
-import CurrentImage from './components/CurrentImage.jsx';
+import Photograph from './components/Photograph.jsx';
 import Contact from './components/Contact.jsx';
 
 function App() {
   return (
     <div className="App">
       <Title />
-      <CurrentImage />
+      <Photograph />
       <Contact />
     </div>
   );

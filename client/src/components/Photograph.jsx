@@ -29,6 +29,7 @@ export default function Photograph() {
         src={img}
         onClick={() => setCurrentImgIndex(currentImgIndex !== images.length - 1 ? currentImgIndex + 1 : 0)}
         className="current-img"
+        alt="Caleb Henderson portfolio images"
         />
     )
   })

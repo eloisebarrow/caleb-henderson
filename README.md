@@ -30,7 +30,19 @@ TBD
 | Component | Description | 
 | --- | :---: |  
 |  App | Calls Title, CurrentImage, Contact and Menu | 
-|  Title | Renders Caleb's name on mobile and turns the cursor into his name on desktop | 
+|  Title | Renders Caleb's name on mobile and is hidden on desktop | 
 |  CurrentImage | Renders the first available image on page load, followed by the next image as a user clicks through the images | 
 |  Contact | Renders Caleb's email below CurrentImage on mobile, and 'Contact' on desktop - when clicked renders Menu component | 
 |  Menu | Renders overlay across entire viewport with Caleb's email and a translucent background | 
+
+## Potential breakpoints for responsive design
+
+Galaxy S5 | 360 x 640
+Pixel 2 | 411 x 731
+Pixel 2XL | 411 x 823
+iPhone 5/SE | 320 x 568
+iPhone 6/7/8 | 375 x 667
+iPhone 6/7/8 Plus | 414 x 736
+iPhone X | 375 x 812
+iPad | 768 x 1024
+iPad Pro | 1024 x 1366

@@ -3,3 +3,7 @@
   font-size: 1rem;
   color: rgb(79,74,71);
 }
+
+.desktop-contact {
+  display: none;
+}

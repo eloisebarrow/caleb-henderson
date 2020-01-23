@@ -1,17 +1,20 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import './App.css';
 import Title from './components/Title.jsx';
 import Photograph from './components/Photograph.jsx';
-import Header from './components/Header.jsx';
+// import Header from './components/Header.jsx';
 import Contact from './components/Contact.jsx';
 
-function App() {
+function App(){  
+
+  const [overlay, setOverlay] = useState(false);
+
   return (
     <div className="App">
       {/* <Header /> */}
       <Title />
       <Photograph />
-      <Contact />
+      <Contact overlay={overlay} setOverlay={setOverlay} />
     </div>
   );
 }

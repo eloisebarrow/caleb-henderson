@@ -7,3 +7,15 @@
 .desktop-contact {
   display: none;
 }
+
+/******* TABLET / DESKTOP **********/
+@media screen and (min-width: 769px) { 
+  .mobile-contact {
+    display: none;
+  }
+
+  .desktop-contact {
+    display: block;
+  }
+}
+

@@ -4,7 +4,7 @@ import './Menu.css';
 export default function Menu(props) {
   return (
     <div className="overlay">
-      <a href="javascript:void(0)" className="closebtn" onClick={() => props.setOverlay(false)}>X</a>
+      <button className="closebtn" onClick={() => props.setOverlay(false)}>X</button>
       <h1>ContactCalebH@gmail.com</h1>
     </div>
   )

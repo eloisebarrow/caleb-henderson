@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Title from './components/Title.jsx';
 import Photograph from './components/Photograph.jsx';
@@ -9,8 +9,6 @@ import Menu from './components/Menu.jsx';
 function App(){  
 
   const [overlay, setOverlay] = useState(false);
-
-
 
   return (
     <div className="App">

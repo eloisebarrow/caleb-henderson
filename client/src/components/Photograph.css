@@ -1,12 +1,12 @@
 .img-container {
   align-items: center;
-  width: 500px;
-  height: auto;
+  /* width: 500px; */
+  height: 490px;
 }
 
 .current-img {
-  width: 70%;
-  height: 70%;
+  /* width: 70%; */
+  height: 100%;
   display: block;
   margin: 0 auto;
 }

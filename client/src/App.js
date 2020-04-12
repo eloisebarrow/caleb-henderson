@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Title from './components/Title.jsx';
 import Photograph from './components/Photograph.jsx';
-// import Header from './components/Header.jsx';
 import Contact from './components/Contact.jsx';
 import Menu from './components/Menu.jsx';
 
@@ -15,8 +14,12 @@ function App(){
       {/* <Header /> */}
       <Title />
       <Photograph />
-      <Contact overlay={overlay} setOverlay={setOverlay} />
-      <Menu overlay={overlay} setOverlay={setOverlay} />
+      <Menu 
+        overlay={overlay} 
+        setOverlay={setOverlay} /> 
+      <Contact 
+        overlay={overlay} 
+        setOverlay={setOverlay} /> 
     </div>
   );
 }

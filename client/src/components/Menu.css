@@ -1,11 +1,24 @@
-.overlay {
+.show-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.3);
+}
+
+.hide-overlay {
+  display: none;
 }
 
 .overlay h1 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 1rem;
   color: #EEEEEE;
+}
+
+.closebtn {
+  position: absolute;
+  right: 0;
+  margin: 5px 5px 0 0;
 }

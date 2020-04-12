@@ -1,3 +1,9 @@
+.contact-container {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 20px 0;
+}
+
 .contact-container h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 1rem;
@@ -17,5 +23,6 @@
   .desktop-contact {
     display: block;
   }
+
 }
 

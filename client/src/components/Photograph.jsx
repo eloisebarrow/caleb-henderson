@@ -18,7 +18,6 @@ import img13 from './../images/Street_2019012.jpg';
 export default function Photograph() {
 
   const [currentImgIndex, setCurrentImgIndex] = React.useState(0);
-  // const placeholders = [1, 2, 3, 4, 5];
 
   const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
 
@@ -37,17 +36,6 @@ export default function Photograph() {
   return (
     <div className="img-container">
       {displayImg[currentImgIndex]}
-      {/* <img src={images[currentImgIndex]} className="current-img"/> */}
-      {/* { images.map( (img, index) => {
-        return (
-          <img 
-            key={index}
-            src={img}
-            onClick={() => setCurrentImgIndex(currentImgIndex !== photos.length - 1 ? currentImgIndex + 1 : 0)}
-            className="current-img"
-            />
-        )
-      }) } */}
     </div>
   )
 }

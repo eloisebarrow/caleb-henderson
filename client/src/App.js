@@ -9,17 +9,19 @@ function App(){
 
   const [overlay, setOverlay] = useState(false);
 
+  const toggleOverlay = () => {
+    setOverlay(!overlay)
+  }
+
   return (
     <div className="App">
-      {/* <Header /> */}
       <Title />
       <Photograph />
       <Menu 
-        overlay={overlay} 
-        setOverlay={setOverlay} /> 
+        overlay={overlay}  /> 
       <Contact 
         overlay={overlay} 
-        setOverlay={setOverlay} /> 
+        toggleOverlay={toggleOverlay} /> 
     </div>
   );
 }

@@ -7,7 +7,7 @@
   width: 50%;
   height: 100%;
   background-color: rgba(255,255,255,0.9);
-  animation: overlay-slide-in 1.25s;
+  animation: overlay-slide-in 1s;
 }
 
 .hide-overlay {
@@ -24,7 +24,7 @@
   font-family: 'Ibarra Real Nova', serif;
   font-size: 1rem;
   color: #000000;
-  animation: overlay-contact-fade-in 3.75s;
+  animation: overlay-contact-fade-in 3s;
 }
 
 .closebtn {

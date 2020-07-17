@@ -18,6 +18,14 @@ This is a portfolio website for photographer Caleb Henderson.
 
 TBD
 
+## Development Build
+
+Temporarily hosting this site on surge.
+
+Run `npm run build` from the /client folder
+cd into /build
+Run surge
+
 ## Wireframes & React Architecture
 
 - [Mobile landing page](https://res.cloudinary.com/eloise/image/upload/v1573066206/caleb-henderson/mobile_wireframe.jpg)

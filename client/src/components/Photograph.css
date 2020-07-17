@@ -7,8 +7,18 @@
   height: 100%;
   display: block;
   margin: 0 auto;
+  animation: fade-in 1.75s;
 }
 
 .current-img:hover{
   cursor: pointer;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

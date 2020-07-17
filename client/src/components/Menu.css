@@ -1,4 +1,4 @@
-.show-overlay {
+.show-overlay, .hide-overlay {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -7,28 +7,31 @@
   width: 50%;
   height: 100%;
   background-color: rgba(255,255,255,0.9);
+}
+
+.show-overlay {
   animation: overlay-slide-in 1s;
 }
 
 .hide-overlay {
-  display: none;
+  margin-left: 50%;
+  animation: overlay-slide-out 1s;
 }
 
-.hide-overlay h1 {
-  /* font-family: 'Ibarra Real Nova', serif; */
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #FFFFFF;
-}
-
-.show-overlay h1 {
+.show-overlay h1, .hide-overlay h1 {
   /* font-family: 'Ibarra Real Nova', serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: #000000;
+}
+
+.show-overlay h1 {
   animation: overlay-contact-fade-in 3s;
+}
+
+.hide-overlay h1 {
+  animation: overlay-contact-fade-out 0.5s;
 }
 
 .closebtn {
@@ -39,7 +42,6 @@
 
 @keyframes overlay-slide-in {
   0% {
-    opacity: 1;
     margin-left: 100%;
     width: 100%;
   }
@@ -55,5 +57,25 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes overlay-slide-out {
+  0% {
+    margin-left: 0;
+    width: 50%;
+  }
+  100% {
+    margin-left: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes overlay-contact-fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

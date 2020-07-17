@@ -1,6 +1,6 @@
 .img-container {
   align-items: center;
-  height: 490px;
+  height: 390px;
 }
 
 .current-img {
@@ -10,15 +10,21 @@
   animation: fade-in 1.75s;
 }
 
-.current-img:hover{
-  cursor: pointer;
-}
-
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+.current-img:hover{
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .img-container {
+    height: 690px;
   }
 }

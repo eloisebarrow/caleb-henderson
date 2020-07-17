@@ -31,6 +31,7 @@
 }
 
 .hide-overlay h1 {
+  visibility: hidden;
   animation: overlay-contact-fade-out 0.5s;
 }
 

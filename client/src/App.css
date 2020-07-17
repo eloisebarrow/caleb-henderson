@@ -3,7 +3,7 @@
   overflow: auto;
 }
 
-.App {
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +19,20 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* FADE IN ON LOAD */
+
+.app {
+  background-color: rgb(255,255,255);
+  animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

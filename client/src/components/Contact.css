@@ -5,13 +5,19 @@
 }
 
 .contact-container h2 {
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   color: rgb(79,74,71);
 }
 
 .desktop-contact {
   display: none;
+}
+
+.show-overlay + .contact-container h2 {
+  color: rgb(255,0,0);
 }
 
 /******* TABLET / DESKTOP **********/
@@ -24,4 +30,5 @@
     display: block;
     cursor: pointer;
   }
+
 }

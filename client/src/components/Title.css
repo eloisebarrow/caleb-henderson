@@ -1,5 +1,7 @@
 .title h1 {
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1.5rem;
   color: rgb(79,74,71);
 }

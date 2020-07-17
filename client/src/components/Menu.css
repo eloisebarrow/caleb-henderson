@@ -15,13 +15,17 @@
 }
 
 .hide-overlay h1 {
-  font-family: 'Ibarra Real Nova', serif;
+  /* font-family: 'Ibarra Real Nova', serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   color: #FFFFFF;
 }
 
 .show-overlay h1 {
-  font-family: 'Ibarra Real Nova', serif;
+  /* font-family: 'Ibarra Real Nova', serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   color: #000000;
   animation: overlay-contact-fade-in 3s;

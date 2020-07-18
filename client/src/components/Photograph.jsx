@@ -1,6 +1,8 @@
 import React from 'react';
 import './Photograph.css';
 // import photos from './../photos';
+import Slider from 'react-slick';
+import ReactDOM from "react-dom";
 import img1 from './../images/IMG_5149-2.jpeg';
 import img2 from './../images/Street_2019019.jpg';
 import img3 from './../images/Street_2019020.jpg';
@@ -33,6 +35,14 @@ export default function Photograph() {
     )
   })
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    // speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <div className="img-container">
       <div 
@@ -49,3 +59,25 @@ export default function Photograph() {
     </div>
   )
 }
+
+
+      {/* <Slider {...settings}>
+        <div>
+          <img src="../images/IMG_5149-2.jpeg"></img>
+        </div>
+        <div>
+          {displayImg[1]}
+        </div>
+        <div>
+          {displayImg[2]}
+        </div>
+        <div>
+          {displayImg[3]}
+        </div>
+        <div>
+          {displayImg[4]}
+        </div>
+        <div>
+          {displayImg[5]}
+        </div>
+      </Slider> */}

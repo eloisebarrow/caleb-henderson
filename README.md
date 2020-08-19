@@ -45,12 +45,12 @@ Run surge
 
 ## Potential breakpoints for responsive design
 
-Galaxy S5 | 360 x 640
-Pixel 2 | 411 x 731
-Pixel 2XL | 411 x 823
-iPhone 5/SE | 320 x 568
-iPhone 6/7/8 | 375 x 667
-iPhone 6/7/8 Plus | 414 x 736
-iPhone X | 375 x 812
-iPad | 768 x 1024
-iPad Pro | 1024 x 1366
+Galaxy S5 | 360 x 640 <br/>
+Pixel 2 | 411 x 731 <br/>
+Pixel 2XL | 411 x 823 <br/>
+iPhone 5/SE | 320 x 568 <br/>
+iPhone 6/7/8 | 375 x 667 <br/>
+iPhone 6/7/8 Plus | 414 x 736 <br/>
+iPhone X | 375 x 812 <br/>
+iPad | 768 x 1024 <br/>
+iPad Pro | 1024 x 1366 <br/>

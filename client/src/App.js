@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Title from './components/Title.jsx';
 import Photograph from './components/Photograph.jsx';
@@ -9,13 +9,17 @@ function App(){
 
   const [overlay, setOverlay] = useState(false);
 
+  useEffect(() => {
+    setOverlay(false)
+  }, [])
+
   const toggleOverlay = () => {
     setOverlay(!overlay)
   }
 
   return (
     <div className="app">
-      <Title />
+      {/* <Title /> */}
       <Photograph />
       <Menu 
         overlay={overlay}  /> 

@@ -1,0 +1,11 @@
+/* .slick-track {
+  transform: none !important;
+} */
+
+.slider-container {
+  display: flex;
+}
+
+.img-container {
+  height: 390px;
+}

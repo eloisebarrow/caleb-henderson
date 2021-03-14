@@ -1,5 +1,7 @@
 .img-container {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   /* height: 390px; */
   height: 75%;
   margin: 0;
@@ -8,7 +10,7 @@
 .current-img {
   height: 100%;
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   animation: fade-in 1.75s;
 }
 
@@ -25,9 +27,31 @@
   cursor: pointer;
 }
 
+/********** DESKTOP STYLES ************/
 @media (min-width: 768px) {
   .img-container {
     height: 100%;
+    width: 100%;
     margin: 5px;
+  }
+
+  .dot {
+    /* border: 5px solid green; */
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  
+  .dot:nth-child(1) {
+    margin-left: 120px;
+  }
+  
+  .dot:nth-child(3) {
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .dot {
+    display: none;
   }
 }

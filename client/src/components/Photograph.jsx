@@ -35,7 +35,17 @@ export default function Photograph() {
 
   return (
     <div className="img-container">
+      <div 
+        className="dot"
+        onClick={() => setCurrentImgIndex(currentImgIndex !== 0 ? currentImgIndex - 1 : images.length - 1)}
+        > ･ 
+      </div>
       {displayImg[currentImgIndex]}
+      <div 
+        className="dot"
+        onClick={() => setCurrentImgIndex(currentImgIndex !== images.length - 1 ? currentImgIndex + 1 : 0)}
+        > ･ 
+      </div>
     </div>
   )
 }
